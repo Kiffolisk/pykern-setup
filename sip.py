@@ -1,7 +1,7 @@
 import os
 import urllib.request
 
-def run(osdir, username, curpath, args):
+def run(setpathfunc, osdir, username, curpath, args):
     if len(args) != 2:
         print("SIP - Super Installer Package")
     else:
